@@ -1,0 +1,74 @@
+{
+  "author": {
+    "name": "Carlos Eduardo Bier"
+  },
+  "bin": {
+    "dpd": "bin/dpd"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "bluebird": "^3.5.0",
+    "commander": "^2.11.0",
+    "cookies": "^0.6.2",
+    "corser": "^2.0.1",
+    "debug": "^2.6.9",
+    "doh": "0.0.4",
+    "ejs": "^2.5.6",
+    "filed": "^0.1.0",
+    "fs-extra": "^0.30.0",
+    "mkdirp": "^0.5.1",
+    "mongodb": "5.1.0",
+    "opener": "^1.4.3",
+    "qs": "^6.5.0",
+    "request": "^2.74.0",
+    "scrubber": "0.0.0",
+    "semver": "^5.3.0",
+    "send": "^0.14.2",
+    "shelljs": "^0.7.8",
+    "socket.io": "^1.7.4",
+    "step": "0.0.6",
+    "underscore": "^1.8.3",
+    "validation": "0.0.1"
+  },
+  "description": "a fork of deployd with implementations and fixes",
+  "devDependencies": {
+    "chai": "*",
+    "less": "*",
+    "mocha": "*",
+    "mocha-jshint": "2.3.1",
+    "mocha-phantomjs": "^4.1.0",
+    "rewire": "~2.5.2",
+    "sinon": "~1.17.5"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 187,
+    "integrity": "sha512-yi6T1T198p6IwlpVoXT9K+eM0wyw3ge4DtEYXOlimpaJq075HrSp9P06EAoUj73q6gqAg9RlBp2DZqfauPhWRg==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa+tzDCRA9TVsSAnZWagAA5IgP/jrxfsuz7KJ2aCqD/OKH\naK6QGZDoUWM72IvVidl01yuiNDppDgWT4Kkh6biic8lYYze0ddJwG6uQR5HF\nRwQ+qQRZjM+tePpsULalrbf6gnqarEn2RdaUJCB9DFfipmsgrjf76evmtUZP\nGwmAlpS0E7mcTQ2HrM2u4nq4AEN9Qjs3fKMNDHkhqZxHmAM/QJf1HBgTh60X\nCnDUXvl/v1tRU0pod4xIvM5Wjq8dWZJiA5jEO0SV55o+kf2L1zPyrh6/wSl7\n82b2B8BeV9drwgnAfSj2MpF36hItZRpwYH9cNSHtm6xzxzI28Zig2bi+INQ/\nxrqXSClhhV/XIO2vZoi4AYBoK4g9BpPIQa+5JCcYv/9DzZps5GDtnBEZSC80\nmzB1Zh21JtvOsXAXmNssA7RI+0EX10nlzdgA8zDqGeNW4k143g7u2K9CqYxP\nvSklXpRaVwZdXdZeo2wTRfOjF2jyA26hXijdFvHFFnIaYSclKVVeIqo7+RJ5\n1HAw1aTbr9RDL3A3MYPg+IjYTvf5aLlhQ9G2nedXbD+o1dtOzmaoI7bXt749\nI9CwcID2CuLDLgJAVbAyXI58ATXgYP6JaqgcE0fTHlocvVVQVuLnEr5TZKLz\nN5Gv5ay906DFyD58aYfkt/ds8v/NX5kBNUzRZyijhUjvlHPm2vupgvXPISw+\nYFsy\r\n=o9ac\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "7842b5d0324c961ec73265c1d1039c6790aa3c4a",
+    "tarball": "https://registry.npmjs.org/deployd-plus/-/deployd-plus-1.0.0.tgz",
+    "unpackedSize": 2619187
+  },
+  "engines": {
+    "node": ">= 0.12.0"
+  },
+  "gitHead": "a52b382bf85a20f629a25051705b1d3bd8e7c627",
+  "homepage": "",
+  "license": "Apache-2.0",
+  "main": "index",
+  "maintainers": [
+    {
+      "name": "biernaweb",
+      "email": "eduardo.bier.social@referenceit.com.br"
+    }
+  ],
+  "name": "deployd-plus",
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "url": "git+https://referenceit.visualstudio.com/deployd.plus/_git/deployd.plus"
+  },
+  "scripts": {
+    "test": "mocha --timeout 5000 && cd test-app && node runtests.js"
+  },
+  "version": "1.0.10"
+}
