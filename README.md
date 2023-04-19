@@ -1,7 +1,4 @@
-# deployd-plus
+# 19-abr-2023
 
-> the simplest way to build an api (fork deployd).
-
- [![Current Version](https://img.shields.io/npm/v/deployd.svg?style=flat-square)](https://www.npmjs.org/package/deployd-referenceit) [![Build Status](https://img.shields.io/travis/deployd/deployd.svg?style=flat-square)](http://travis-ci.org/deployd/deployd-referenceit)
->
-
+Bier - Subi para o Github o repositório do deployd-plus, com ajustes no mongodb client para nova versão (estava dando incompatibilidade com mongo Atlas);
+Esse repositório está publicado no pacote deployd-plus do npm e é o repositório válido para os projetos Referenceit
