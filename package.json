@@ -58,17 +58,17 @@
   "main": "index",
   "maintainers": [
     {
-      "name": "biernaweb",
-      "email": "eduardo.bier.social@referenceit.com.br"
+      "name": "eduardo.bier",
+      "email": "eduardo.bier@bitec.dev.br"
     }
   ],
   "name": "deployd-plus",
   "readme": "ERROR: No README data found!",
   "repository": {
-    "url": "git+https://referenceit.visualstudio.com/deployd.plus/_git/deployd.plus"
+    "url": "git+https://github.com/bier-web/deployd.plus.git"
   },
   "scripts": {
     "test": "mocha --timeout 5000 && cd test-app && node runtests.js"
   },
-  "version": "1.0.14"
+  "version": "1.0.16"
 }
